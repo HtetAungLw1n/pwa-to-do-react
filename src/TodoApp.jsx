@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Plus, X, Check } from "lucide-react";
 
-export default function TodoApp() {
+export default function ToDoApp() {
   const [todos, setTodos] = useState([]);
   const [inputValue, setInputValue] = useState("");
 
